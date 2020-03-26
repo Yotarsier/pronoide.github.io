@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161887876-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-161887876-1');
+</script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html">
@@ -41,16 +50,18 @@
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li><a href="#nosotros">Nosotros</a></li>
             <!--li><a href="#que-hacemos">¿Qué?</a></li>
             <li><a href="#como-lo-hacemos">¿Cómo?</a></li>
             <li><a href="#donde-estamos">¿Dónde?</a></li>
             <li><a href="#a-donde-vamos">Futuro</a></li>
-            <li><a href="#quienes-somos">¿Quienes?</a></li-->
-            <li><a href="#nuestro-ideario">Ideario</a></li>
+            <li><a href="#quienes-somos">¿Quienes?</a></li-->            
+            <li><a href="#que-impartimos">Catálogo</a></li>   
+            <li><a href="#servicios-pronoide">Servicios</a></li>                   
+            <li><a href="#quienes-somos">Equipo</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <!--<li><a href="#nuestro-ideario">Ideario</a></li>-->
             <li><a href="#trabajo">Trabajo</a></li>
             <!--li><a href="#cursos-de-verano">SummerCamps</a></li-->
-            <li><a href="#que-impartimos">Catálogo</a></li>
             <li><a href="#contacto">Contacto</a></li>
             <li><a href="./en/">English</a></li>
           </ul>
@@ -58,85 +69,682 @@
       </div>
     </nav>
 
-    <!-- nosotros -->
-    <section id="nosotros" class="container dark">
-    <!-- que-hacemos -->
-    <!--section id="que-hacemos" class="container dark"-->
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-          <img src="img/logo/pronoide-1-1000.png" alt="Logo de Pronoide"/>
-          <h2 class="text-center"><strong>Formación por y para profesionales del mundo tecnológico</strong></h2>
+
+<!-- que-impartimos -->
+<section id="que-impartimos" class="container dark">
+  <h1>¿Qué formación impartimos?</h1>
+  <!--banner cursos-->
+  <p>Cursos más demandados</p>
+  <div class="banner-container">
+    <a class="prev" onclick="plusSlides(-1, 'myCourse')">&#10094;</a>
+      <div class="slideshow-container center">     
+      <!--Devops, Docker, Kubernetes, Python, Elasticsearch, Big Data, Spark y Hadoop, Machine Learning, AWS, Azure, Openshift. Y Spring boot / cloud y scrum-->
+        <!--Diapositiva 1-->
+        <div class="row myCourse filaCurso">
+          <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default course">
+              <div class="panel-body banner">
+                <h2>Curso</h2> 
+                <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/64290892/DCH-020+Docker">
+                <img src="img/banner/cursos/docker.png"/></a>
+                <h2 style="color: #E04000;">Docker</h2> 
+                <h3>Más de 40 cursos impartidos</h3>
+              </div>
+            </div>
+          </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/681050134/DCH-060+Kubernetes">
+                  <img src="img/banner/cursos/kubernetes.png"/></a>
+                  <h2 style="color: #E04000;">Kubernetes</h2>
+                  <h3>Más de 50 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/776896522/BDN-080+Spark">
+                  <img src="img/banner/cursos/spark.png"/></a>
+                  <h2 style="color: #E04000;">Spark<h2>
+                  <h3>Más de 30 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+              <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="panel panel-default course">
+                  <div class="panel-body banner">
+                    <h2>Curso</h2>
+                    <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/856850442/BDN-035+Kibana">
+                    <img src="img/banner/cursos/kibana.png"/></a>
+                    <h2 style="color: #E04000;">Kibana</h4>
+                    <h3>Más de 25 cursos impartidos</h3>
+                  </div>
+                </div>
+              </div> 
+        </div><!--cierre diapositiva 1-->
+        <!--Diapositiva 2-->
+        <div class="row myCourse filaCurso">
+          <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default course">
+              <div class="panel-body banner">
+                <h2>Curso</h2> 
+                <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/63406137/BDN-070+Machine+Learning">
+                <img src="img/banner/cursos/machinelearning.png"/></a>
+                <h2 style="color: #E04000;">Machine Learning</h2> 
+                <h3>Más de 20 cursos impartidos</h3>
+              </div>
+            </div>
+          </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <img src="img/banner/cursos/openshift.png"/>
+                  <h2 style="color: #E04000;">Openshift</h2>
+                  <h3>Más de 30 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/719454218/DCH-070+AWS+Fundamentos+t+cnicos">
+                  <img src="img/banner/cursos/aws.png"/></a>
+                  <h2 style="color: #E04000;">Amazon Web Services<h2>
+                  <h3>Más de 50 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+              <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="panel panel-default course">
+                  <div class="panel-body banner">
+                    <h2>Curso</h2>
+                    <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/63406114/BDN-030+Elasticsearch">
+                    <img src="img/banner/cursos/elasticsearch.png"/></a>
+                    <h2 style="color: #E04000;">Elasticsearch</h4>
+                    <h3>Más de 25 cursos impartidos</h3>
+                  </div>
+                </div>
+              </div>  
+        </div><!--cierre dispositiva 2-->
+        <!--Diapositiva 3-->
+        <div class="row myCourse filaCurso">
+          <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default course">
+              <div class="panel-body banner">
+                <h2>Curso</h2> 
+                <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/64290880/DCH+Devops+Cloud+y+Herramientas+XaaS">
+                <img src="img/banner/cursos/devops.png"/></a>
+                <h2 style="color: #E04000;">DevOps</h2> 
+                <h3>Más de 40 cursos impartidos</h3>
+              </div>
+            </div>
+          </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/775749655/DCH-100+Conceptos+b+sicos+de+Azure">
+                  <img src="img/banner/cursos/azure.png"/></a>
+                  <h2 style="color: #E04000;">Azure</h2>
+                  <h3>Más de 30 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550797451/OTL-020+Python+y+utilidades">
+                  <img src="img/banner/cursos/python.png"/></a>
+                  <h2 style="color: #E04000;">Python<h2>
+                  <h3>Más de 80 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+              <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="panel panel-default course">
+                  <div class="panel-body banner">
+                    <h2>Curso</h2>
+                    <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/63406120/BDN-010+Fundamentos+de+Big+Data">
+                    <img src="img/banner/cursos/bigdata.png"/></a>
+                    <h2 style="color: #E04000;">Big Data</h4>
+                    <h3>Más de 25 cursos impartidos</h3>
+                  </div>
+                </div>
+              </div>
+        </div><!--cierre diapositiva 3-->
+        <!--Diapositiva 4--> 
+        <div class="row myCourse filaCurso">
+          <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default course">
+              <div class="panel-body banner">
+                <h2>Curso</h2> 
+                <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/63406130/BDN-050+Hadoop">
+                <img src="img/banner/cursos/hadoop.png"/></a>
+                <h2 style="color: #E04000;">Hadoop</h2> 
+                <h3>Más de 40 cursos impartidos</h3>
+              </div>
+            </div>
+          </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/629571610/SPR-050+Spring+Boot">
+                  <img src="img/banner/cursos/springboot.png"/></a>
+                  <h2 style="color: #E04000;">Spring Boot</h2>
+                  <h3>Más de 60 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+            <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default course">
+                <div class="panel-body banner">
+                  <h2>Curso</h2>
+                  <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/629735454/SPR-060+Spring+Cloud">
+                  <img src="img/banner/cursos/springcloud.png"/></a>
+                  <h2 style="color: #E04000;">Spring Cloud<h2>
+                  <h3>Más de 60 cursos impartidos</h3>
+                </div>
+              </div>
+            </div>
+              <div class="panel-curso col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="panel panel-default course">
+                  <div class="panel-body banner">
+                    <h2>Curso</h2>
+                    <a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550731830/MGP-010+Scrum">
+                    <img src="img/banner/cursos/scrum.png"/></a>
+                    <h2 style="color: #E04000;">Scrum</h4>
+                    <h3>Más de 100 cursos impartidos</h3>
+                  </div>
+                </div>
+              </div>  
+        </div><!--cierre diapositiva 4-->             
+      </div><!--todas las diapositivas-->
+    <a class="prev" onclick="plusSlides(1, 'myCourse')">&#10095;</a>
+  </div><!--cierre container-->
+<!--pie del banner-->
+<!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+  Ofrecemos servicios online
+</div>-->
+<br/>
+  <p>Pulsa en cada área para más detalles o 
+    <a download="Listado de cursos 2020" href="courses\Pronoide. listado de areas y cursos 2020.pdf">descarga el catálogo</a></p>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63897614">Java (JSE y JEE)</a></h2>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
-          <h1>¿Qué hacemos?</h1>
-          <p>Con todas las tecnologías y marcos disponibles hoy en día, una empresa puede dedicar
-            <strong>demasiado esfuerzo en analizar, comparar, y finalmente decidir cuál es el mejor stack técnico</strong>
-            para construir sus proyectos, o desarrollar su negocio.</p>
-          <p>Nuestros servicios de consultoría y formación pueden ayudar a su compañía en esta tarea.
-            Tenemos <strong>más de 15 años de experiencia</strong> en el desarrollo y sistemas,
-            y <strong>cerca de 80.000 horas de cursos de formación</strong> impartidos
-            en más de 2.400 eventos formativos a profesionales de la industria.</p>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63897614">
+            <img src="img/icons/128/java-bis.png" alt="Java (JSE y JEE)" />
+          </a>
         </div>
       </div>
-    </section><!-- /.container -->
-
-    <!-- como-lo-hacemos -->
-    <section id="como-lo-hacemos" class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
-          <h1>¿Cómo lo hacemos?</h1>
-          <p>Usamos los <strong>lenguajes, plataformas y herramientas</strong> que están presentes en las empresas,
-            para desarrollar, mejorar o apoyar los procesos de negocio.</p>
-          <p>La teoría esta por todas partes, así que tratamos de enseñar de una manera práctica,
-            <strong>con ejemplos y soluciones</strong>. A menudo empezamos nuestro curso con un caso de uso
-            o una historia de usuario de la propia empresa, y después lo desarrollamos en el aula.</p>
-          <blockquote>"Quien se atreve a enseñar, nunca debe dejar de aprender"<br />
-          (John Cotton Dana)</blockquote>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BFDJ%5D+Frameworks+de+Desarrollo+Java">Frameworks Java</a></h2>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-          <img src="img/logo/pronoide-tags-1000.jpg" alt="Tags de Pronoide"/>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BFDJ%5D+Frameworks+de+Desarrollo+Java"><img src="img/icons/128/java-bis-frameworks.png" alt="Frameworks Java" /></a>
         </div>
       </div>
-    </section><!-- /.container -->
-
-    <!-- donde estamos -->
-    <section id="donde-estamos" class="container dark">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
-          <h1>¿Dónde estamos?</h1>
-          <p>Hemos sido ponentes en ediciones anteriores del <a href="https://www.youtube.com/watch?v=XUeEam--4Qo">Greach</a>,
-            y del <a href="http://2014.codemotion.es/en/agenda.html?recommended=#day2/seguridad-de-las-aplicaciones-web-con-spring-security-3x">Codemotion</a>
-            y en muchos otros eventos de la comunidad de desarrolladores: <a href="http://lanyrd.com/profile/pronoide_fer/past/"> presencia en pasados eventos</a>.</p>
-          <p>Hemos sido patrocinadores del <a href="http://www.springio.net/">Spring I/O 2015</a>
-            , del <a href="http://greachconf.com/">Greach 2015</a>
-            y del <a href="http://greachconf.com/">Greach 2016</a>.</p>
-          <p>Patrocinamos también el <a href="http://2017.greachconf.com/#tile_sponsors">Greach 2017</a>
-            y a la comunidad de <a href="http://hackathonlovers.com/">Hackathon Lovers</a>.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550928502/SPR+Spring">Spring</a></h2>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-          <img src="img/others/logos-eventos.png" alt="Logos de eventos"/>
+        <div class="panel-body">
+          <img src="img/icons/128/spring.png" alt="Spring" />
         </div>
       </div>
-    </section><!-- /.container -->
-
-    <!-- a-donde-vamos -->
-    <section id="a-donde-vamos" class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
-          <h1>¿A dónde vamos?</h1>
-          <p>Nuestro trabajo principal es proporcionar una formación de calidad para los profesionales de TI.
-            Estamos enfocados en España, pero nuestro objetivo es hacer lo mismo <strong>en el resto de Europa</strong>.</p>
-          <p>Hemos contribuido esporádicamente en <strong>eventos y proyectos</strong>,
-            y queremos aumentar esta contribución en el futuro. También queremos ofrecer de una manera abierta,
-            <strong>el material de nuestros cursos</strong> a cualquier persona interesada.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=62226454">Desarrollo Web</a></h2>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
-          <div class="img-border-radius">
-            <img src="img/others/fernando-en-clase.jpg" alt="Fernando dando clase"/>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=62226454">
+            <img src="img/icons/128/web.png" alt="Desarrollo Web" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550731837/NFR+.NET+Framework">.Net</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/microsoft.net.png" alt=".Net" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550830176/TCC+Tecnolog+a+C+y+C+">C y C++<a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/c-c++_bis.png" alt="C y C++" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550699092/OTL+Otros+Lenguajes+y+Tendencias">Últimas tendencias</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/trend.png" alt="Últimas tendencias" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63406117">Desarrollo Móviles</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63406117">
+            <img src="img/icons/128/smartphones.png" alt="Desarrollo Móviles" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDN%5D+Big+Data+y+NoSql">Big Data y NoSql</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDN%5D+Big+Data+y+NoSql">
+            <img src="img/icons/128/cloud-bigdata-bis.png" alt="Big Data y NoSql" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BDCH%5D++Devops%2C+Cloud+y+Herramientas+XaaS">DevOps y Cloud</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BDCH%5D++Devops%2C+Cloud+y+Herramientas+XaaS"><img src="img/icons/128/cloud-whels.png" alt="DevOps y Cloud" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550928527/XWS+XML+Web+Services+y+SOA">XML, Web Services y SOA</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/cloud-arrows.png" alt="XML, Web Services y SOA" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64290904">Desarrollo rápido</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64290904"><img src="img/icons/128/train.png" alt="Desarrollo rápido" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64782373">Herramientas</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64782373"><img src="img/icons/128/tools.png" alt="Herramientas" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550993965/SAP+Servidores+Aplicaciones">Servidores de Aplicaciones</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/server.png" alt="Servidores de Aplicaciones" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDT%5D+Bases+de+Datos">Bases de Datos</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDT%5D+Bases+de+Datos"><img src="img/icons/128/database.png" alt="Bases de Datos" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550895719/SOP+Sistemas+Operativos">Linux y Virtualización</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/linux-bis.png" alt="Linux y virtualización" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550699058/MGP+Metodolog+as+para+Gesti+n+de+Proyectos">Gestión de Proyectos</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/dossier.png" alt="Gestión de Proyectos" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550928385/MAD+Metodolog+as+de+An+lisis+y+Dise+o">Análisis y Diseño</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/design.png" alt="Análisis y Diseño" />
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BIBI%5D+Informes+y+Business+Intelligence">BI e Informes</a></h2>
+        </div>
+        <div class="panel-body">
+          <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BIBI%5D+Informes+y+Business+Intelligence"><img src="img/icons/128/report.png" alt="BI e Informes" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/551026722/PGC+Portales+y+Gestores+de+Contenido">Portales y CMS</a></h2>
+        </div>
+        <div class="panel-body">
+          <img src="img/icons/128/portlets.png" alt="Portales y CMS" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <!--<br />-->
+  <!--<br />-->
+</section><!-- /.container -->
+
+
+
+<!--Servicios de Pronoide-->
+<!--Iconos sacados de  iconsdb.com y flaticon.com
+Referencia de color: #325578-->
+<section id="servicios-pronoide" class="container">
+  <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <h1>¿Qué servicios ofrecemos?</h1>
+<!--banner profes-->
+  <div class="banner-container">
+    <a class="prev" onclick="plusSlides(-1, 'myProf')">&#10094;</a>
+      <div class="slideshow-container center">  
+        <!--nuestros profes 1-->
+        <div class="row myProf">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default">
+              <div class="panel-body banner">
+                <h2 style="color: #E04000;">Ángel Villalba Fernández-Paniagua</h2> 
+                <br/>
+                <img src="img/team/angel-villalba-fernandez-paniagua.jpg"/>
+                <br/><br/>
+                <h3>Más de
+                <b style="color: #E04000;">2.100 horas</b> de experiencia</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default">
+              <div class="panel-body banner">
+                <h2 style="color: #E04000;">Luis Ramón Álvarez González</h2>
+                <br/>
+                <img src="img/team/luis-ramon-alvarez-gonzalez.jpg"/>
+                <br/><br/>
+                <h3>Más de 
+                  <b style="color: #E04000;">10.000 horas</b>
+                  de experiencia</h3>
+              </div>
+            </div>
+          </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default">
+                <div class="panel-body banner">
+                  <h2 style="color: #E04000;">Rubén Gómez García</h2>
+                  <br/>
+                  <img src="img/team/ruben-gomez-garcia.jpg"/>
+                  <br/><br/>
+                  <h3>Más de
+                  <b style="color: #E04000;">6.400 horas</b> de experiencia</h3>
+              </div>
+              </div>
+            </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="panel panel-default">
+                  <div class="panel-body banner">
+                    <h2 style="color: #E04000;">Ramón Rubio Hortelano</h2>
+                    <br/>
+                    <img src="img/team/ramon-rubio-hortelano.jpg"/>
+                    <br/><br/>
+                    <h3>Más de
+                    <b style="color: #E04000;">2.100</b> de experiencia</h3>
+                </div>
+                </div>
+              </div>
+        </div><!--cierre profes 1-->
+        <!--nuestros profes 2-->
+        <div class="row myProf">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+          <div class="panel panel-default">
+            <div class="panel-body banner">
+              <h2 style="color: #E04000;">Silvano Gil Pérez</h2> 
+              <br/>
+              <img src="img/team/fernando-silvano-gil-perez.jpg"/>
+              <br/><br/>
+              <h3>Más de
+              <b style="color: #E04000;">7.700 horas</b> de experiencia</h3>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default">
+              <div class="panel-body banner">
+                <h2 style="color: #E04000;">Manuel Tomás Ortega Sánchez</h2>
+                <br/>
+                <img src="img/team/manuel-tomas-ortega.jpg"/>
+                <br/><br/>
+                <h3>Más de
+                <b style="color: #E04000;">1.100 horas</b> de experiencia</h3>
+            </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default">
+              <div class="panel-body banner">
+                <h2 style="color: #E04000;">Plutarco Naranjo</h2>
+                <br/>
+                <img src="img/team/plutarco-naranjo.jpg"/>
+                <br/><br/>
+                <h3>Más de
+                <b style="color: #E04000;">1.000 horas</b> de experiencia</h3>
+            </div>
+            </div>
+          </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default">
+                <div class="panel-body banner">
+                  <h2 style="color: #E04000;">Félix de Pablo Lobo</h2>
+                  <br/>
+                  <img src="img/team/felix-de-pablo-lobo.jpg"/>
+                  <br/><br/>
+                  <h3>Más de
+                  <b style="color: #E04000;">5.000 horas</b> de experiencia</h3>
+              </div>
+              </div>
+            </div>
+        </div><!--cierre profes 2--> 
+        <!--nuestros profes 3-->
+        <div class="row myProf">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+          <div class="panel panel-default">
+            <div class="panel-body banner">
+              <h2 style="color: #E04000;">Germán Caballero Rodríguez</h2> 
+              <br/>
+              <img src="img/team/german-caballero-rodriguez.jpg"/>
+              <br/><br/>
+              <h3>Más de
+              <b style="color: #E04000;">3.000 horas</b> de experiencia</h3>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default">
+              <div class="panel-body banner">
+                <h2 style="color: #E04000;">Pedro Hernández</h2>
+                <br/>
+                <img src="img/team/pedro-hernandez.jpg"/>
+                <br/><br/>
+                <h3>Más de
+                <b style="color: #E04000;">3.000 horas</b> de experiencia</h3>
+            </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+            <div class="panel panel-default">
+              <div class="panel-body banner">
+                <h2 style="color: #E04000;">Daniel Rojo</h2>
+                <br/>
+                <img src="img/team/daniel-rojo-perez.jpg"/>
+                <br/><br/>
+                <h3>Más de
+                <b style="color: #E04000;">3.000 horas</b> de experiencia</h3>
+            </div>
+            </div>
+          </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
+              <div class="panel panel-default">
+                <div class="panel-body banner">
+                  <h2 style="color: #E04000;">Jorge Arévalo</h2>
+                  <br/>
+                  <img src="img/team/jorge-arevalo.jpg"/>
+                  <br/><br/>
+                  <h3>Más de
+                  <b style="color: #E04000;">3.000 horas</b> de experiencia</h3>
+              </div>
+              </div>
+            </div>
+        </div><!--cierre profes 3-->
+      </div>
+    <a class="next" onclick="plusSlides(1, 'myProf')">&#10095;</a>
+  </div><!--cierre banner-->
+<br/><br/>
+  <p>Ofrecemos los siguientes servicios para la empresa:</p>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="panel panel-default service">
+            <div class="panel-heading text-center">
+              <h2><img src="img\servicios\48\preventa.png"/><strong>&nbsp;Preventa de formación</strong></h2>
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>Toma de requisitos</li>
+                <li>Elaboración de temarios</li>
+                <li>Valoración del nivel de participantes</li>
+                <li>Creación de ofertas y pliegos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="panel panel-default service">
+            <div class="panel-heading text-center">
+              <h2><img src="img\servicios\48\acompañamiento.png"/><strong>&nbsp;Acompañamiento de personas y equipo</strong></h2>
+            </div>
+              <div class="panel-body">
+                <ul>
+                  <li>Coaching</li>
+                  <li>Code-reviews</li>
+                  <li>Auditorías técnicas</li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="panel panel-default service">
+          <div class="panel-heading text-center">
+            <h2><img src="img\servicios\48\ponentes.png"/><strong>&nbsp;Ponentes técnicos</strong></h2>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Impartición de cursos presenciales</li>
+              <li>Impartición de cursos remotos</li>
+              <li>Charlas, eventos y seminarios técnicos</li>
+              <li>Workshops y laboratorios</li>
+              <li>Cursos One on One (1 a 1)</li>
+            </ul> 
+          </div> 
+        </div>
+      </div>
+      </div>
+    <!--Otra fila-->
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-heading text-center">
+            <h2><img src="img\servicios\48\multimedia.png"/><strong>&nbsp;Creación y elaboración de contenidos</strong></h2>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Materiales de estudio: tutoriales, manuales, colecciones de ejercicios, etc</li>
+              <li>Contenidos multimedia: videocursos, píldoras formativas, noticias y artículos</li>
+            </ul>
+          </div>
+        </div>  
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="panel panel-default">
+          <div class="text-center panel-heading">
+            <h2><img src="img\servicios\48\gestion.png"/><b>&nbsp;Gestión de Sistemas</b></h2>
+          </div>
+          <div class="panel-body">
+            <ul>
+              <li>Provisión y configuración de infraestructuras Cloud para cursos</li>
+              <li>Creación de máquinas virtuales y entornos de formación</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section><!-- /.container -->
+    </div>
+  <br/>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+<p>Ofrecemos servicios online</p>
+</div>
+</section>
+
 
     <!-- quienes-somos -->
     <section id="quienes-somos" class="container dark">
@@ -422,7 +1030,7 @@
             </div>
           </div>  
         </div>
-        <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <!--<div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h2>Víctor<br />Herrero Cazurro</h2>
@@ -446,29 +1054,54 @@
                   alt="GitHub de Víctor Herrero Cazurro" /></a>
             </div>
           </div>
+        </div>-->
+        <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2>Juan José <br />Domenech</h2>
+              <h3>Web, Testing, Seguridad</h3>
+            </div>
+            <div class="panel-body">
+              <div class="img-rounded">
+                <img src="img/team/juanjosedomenech.jpg"
+                     alt="Juan José Domenech">
+              </div>
+            </div>
+            <div class="panel-footer">
+              <a href="https://twitter.com/juanjodomenech">
+                <img src="img/icons/48/social/twitter.png"
+                     alt="Twitter de Juan José Domenech" /></a>
+              <a href="https://www.linkedin.com/in/juan-jos%C3%A9-domenech-76124324/">
+                <img src="img/icons/48/social/linkedin.png"
+                     alt="LinkedIn de Juan José Domenech" /></a>
+              <!--<a href="https://github.com">
+                <img src="img/icons/48/social/github.png"
+                     alt="GitHub de Juan José Domenech" /></a>-->
+            </div>
+          </div>
         </div>
         <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Borja <br />Igartua Pastor</h2>
-              <h3>IOs, Testing</h3>
+              <h2>Pedro José<br />Hernández</h2>
+              <h3>Java, .Net</h3>
             </div>
             <div class="panel-body">
               <div class="img-rounded">
-                <img src="img/team/borja-igartua-pastor.jpg"
-                     alt="Borja Igartua Pastor">
+                <img src="img/team/pedro-hernandez.jpg"
+                  alt="Pedro José Hernández" />
               </div>
             </div>
             <div class="panel-footer">
-              <a href="https://twitter.com/borjaigartua">
+              <!--<a href="https://twitter.com">
                 <img src="img/icons/48/social/twitter.png"
-                     alt="Twitter de Borja Igartua Pastor" /></a>
-              <a href="https://www.linkedin.com/in/borja-igartua-pastor-17094543">
+                  alt="Twitter de Pedro José Hernández" /></a>-->
+              <a href="https://www.linkedin.com/in/pedrojosehernandez/">
                 <img src="img/icons/48/social/linkedin.png"
-                     alt="LinkedIn de Borja Igartua Pastor" /></a>
-              <a href="https://github.com/borjaIgartua">
+                  alt="LinkedIn de Pedro José Hernández" /></a>
+              <a href="https://github.com/">
                 <img src="img/icons/48/social/github.png"
-                     alt="GitHub de Borja Igartua Pastor" /></a>
+                  alt="GitHub de Pedro José Hernández" /></a>
             </div>
           </div>
         </div>
@@ -496,32 +1129,7 @@
                   alt="GitHub de Javier Gómez Santos" /></a>
             </div>
           </div>
-        </div>
-        <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2>Buscando gente<br />como tú</h2>
-              <h3>Tus especialidades</h3>
-            </div>
-            <div class="panel-body">
-              <div class="img-rounded">
-                <img src="img/team/guest-175.jpg"
-                  alt="Próxima incorporación" />
-              </div>
-            </div>
-            <div class="panel-footer">
-              <a href="">
-                <img src="img/icons/48/social/twitter.png"
-                  alt="Twitter de Próxima incorporación" /></a>
-              <a href="">
-                <img src="img/icons/48/social/linkedin.png"
-                  alt="LinkedIn de Próxima incorporación" /></a>
-              <a href="">
-                <img src="img/icons/48/social/github.png"
-                  alt="GitHub de Próxima incorporación" /></a>
-            </div>
-          </div>  
-        </div> 
+        </div>       
         <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -597,8 +1205,8 @@
         <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h2>Isabel<br />Pastor Villa</h2>
-              <h3>Desarrollo de negocio</h3>
+              <h2>Isabel<br />Pastor Vila</h2>
+              <h3>Directora de Operaciones</h3>
             </div>
             <div class="panel-body">
               <div class="img-rounded">
@@ -620,7 +1228,7 @@
           <div class="panel panel-default">
             <div class="panel-heading">
               <h2>Fernando<br />Redondo Ramírez</h2>
-              <h3>Dirección</h3>
+              <h3>Director General</h3>
             </div>
             <div class="panel-body">
               <div class="img-rounded">
@@ -640,6 +1248,31 @@
                   alt="GitHub de Fernando Redondo Ramírez" /></a>
             </div>
           </div>
+        </div> 
+        <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2>Buscando gente<br />como tú</h2>
+              <h3>Tus especialidades</h3>
+            </div>
+            <div class="panel-body">
+              <div class="img-rounded">
+                <img src="img/team/guest-175.jpg"
+                  alt="Próxima incorporación" />
+              </div>
+            </div>
+            <div class="panel-footer">
+              <a href="">
+                <img src="img/icons/48/social/twitter.png"
+                  alt="Twitter de Próxima incorporación" /></a>
+              <a href="">
+                <img src="img/icons/48/social/linkedin.png"
+                  alt="LinkedIn de Próxima incorporación" /></a>
+              <a href="">
+                <img src="img/icons/48/social/github.png"
+                  alt="GitHub de Próxima incorporación" /></a>
+            </div>
+          </div>  
         </div> 
         <!--div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <div class="panel panel-default">
@@ -662,33 +1295,118 @@
           </div>
         </div-->
       </div>
+      <br/>
     </section><!-- /.container -->
 
-    <section id="nuestro-ideario" class="container">
-      <h1>Nuestro ideario</h1>
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <ul>
-            <li>Las personas valen más que el dinero. Tratamos a la gente de una manera justa.</li>
-            <li>Nos apasiona la tecnología y la innovación. Trabajar es divertido.</li>
-            <li>Somos un equipo, tus problemas son nuestros problemas.</li>
-            <li>Los problemas, cuanto antes mejor.</li>
-            <li>Los grandes cambios nunca pueden ser urgentes, sino que han de hacerse de forma constante y paso a paso.</li>
-          </ul>
+    <!-- nosotros -->
+    <section id="nosotros" class="container">
+      <!-- que-hacemos -->
+      <!--section id="que-hacemos" class="container dark"-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+            <img src="img/logo/pronoide-1-1000.png" alt="Logo de Pronoide"/>
+            <h2 class="text-center"><strong>Formación por y para profesionales del mundo tecnológico</strong></h2>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+            <h1>¿Qué hacemos?</h1>
+            <p>Con todas las tecnologías y marcos disponibles hoy en día, una empresa puede dedicar
+              <strong>demasiado esfuerzo en analizar, comparar, y finalmente decidir cuál es el mejor stack técnico</strong>
+              para construir sus proyectos, o desarrollar su negocio.</p>
+            <p>Nuestros servicios de consultoría y formación pueden ayudar a su compañía en esta tarea.
+              Tenemos <strong>más de 15 años de experiencia</strong> en el desarrollo y sistemas,
+              y <strong>cerca de 80.000 horas de cursos de formación</strong> impartidos
+              en más de 2.400 eventos formativos a profesionales de la industria.</p>
+          </div>
         </div>
-        <div class="col-xs-12 col-md-6">
-          <ul>
-            <li>No queremos héroes, los esfuerzos son puntuales.</li>
-            <li>Enseñar nos ayuda a aprender, y... ¡Hay tanto que aprender!</li>
-            <li>Compartir nuestros conocimientos es una manera de cambiar el mundo en el que vivimos.</li>
-            <li>Ayudamos a mejorar la vida profesional de nuestro alumnos.</li>
-            <li>Ser transparentes, legales y honrados nos permite demandar el mismo trato de nuestros compañeros, alumnos,
-              clientes, proveedores y de la sociedad.</li>
-          </ul>
+      </section><!-- /.container -->
+  
+      <!-- como-lo-hacemos -->
+      <section id="como-lo-hacemos" class="container dark">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+            <h1>¿Cómo lo hacemos?</h1>
+            <p>Usamos los <strong>lenguajes, plataformas y herramientas</strong> que están presentes en las empresas,
+              para desarrollar, mejorar o apoyar los procesos de negocio.</p>
+            <p>La teoría esta por todas partes, así que tratamos de enseñar de una manera práctica,
+              <strong>con ejemplos y soluciones</strong>. A menudo empezamos nuestro curso con un caso de uso
+              o una historia de usuario de la propia empresa, y después lo desarrollamos en el aula.</p>
+            <blockquote>"Quien se atreve a enseñar, nunca debe dejar de aprender"<br />
+            (John Cotton Dana)</blockquote>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+            <img src="img/logo/pronoide-tags-1000.jpg" alt="Tags de Pronoide"/>
+          </div>
         </div>
+      </section><!-- /.container -->
+  
+      <!-- donde estamos -->
+      <!--<section id="donde-estamos" class="container dark">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+            <h1>¿Dónde estamos?</h1>
+            <p>Hemos sido ponentes en ediciones anteriores del <a href="https://www.youtube.com/watch?v=XUeEam--4Qo">Greach</a>,
+              y del <a href="http://2014.codemotion.es/en/agenda.html?recommended=#day2/seguridad-de-las-aplicaciones-web-con-spring-security-3x">Codemotion</a>
+              y en muchos otros eventos de la comunidad de desarrolladores: <a href="http://lanyrd.com/profile/pronoide_fer/past/"> presencia en pasados eventos</a>.</p>
+            <p>Hemos sido patrocinadores del <a href="http://www.springio.net/">Spring I/O 2015</a>
+              , del <a href="http://greachconf.com/">Greach 2015</a>
+              y del <a href="http://greachconf.com/">Greach 2016</a>.</p>
+            <p>Patrocinamos también el <a href="http://2017.greachconf.com/#tile_sponsors">Greach 2017</a>
+              y a la comunidad de <a href="http://hackathonlovers.com/">Hackathon Lovers</a>.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+            <img src="img/others/logos-eventos.png" alt="Logos de eventos"/>
+          </div>
+        </div>
+      </section>--><!-- /.container -->
+  
+      <!-- a-donde-vamos -->
+      <section id="a-donde-vamos" class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7">
+            <h1>¿A dónde vamos?</h1>
+            <p>Nuestro trabajo principal es proporcionar una formación de calidad para los profesionales de TI.
+              Estamos enfocados en España, pero nuestro objetivo es hacer lo mismo <strong>en el resto de Europa</strong>.</p>
+            <p>Hemos contribuido esporádicamente en <strong>eventos y proyectos</strong>,
+              y queremos aumentar esta contribución en el futuro. También queremos ofrecer de una manera abierta,
+              <strong>el material de nuestros cursos</strong> a cualquier persona interesada.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+            <div class="img-border-radius">
+              <img src="img/others/fernando-en-clase.jpg" alt="Fernando dando clase"/>
+            </div>
+          </div>
+        </div>
+      </section><!-- /.container -->
+  
+  <!--Ideario-->
+  <!--<section id="nuestro-ideario" class="container">
+    <h1>Nuestro ideario</h1>
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <ul>
+          <li>Las personas valen más que el dinero. Tratamos a la gente de una manera justa.</li>
+          <li>Nos apasiona la tecnología y la innovación. Trabajar es divertido.</li>
+          <li>Somos un equipo, tus problemas son nuestros problemas.</li>
+          <li>Los problemas, cuanto antes mejor.</li>
+          <li>Los grandes cambios nunca pueden ser urgentes, sino que han de hacerse de forma constante y paso a paso.</li>
+        </ul>
       </div>
-    </section><!-- /.container -->
-
+      <div class="col-xs-12 col-md-6">
+        <ul>
+          <li>No queremos héroes, los esfuerzos son puntuales.</li>
+          <li>Enseñar nos ayuda a aprender, y... ¡Hay tanto que aprender!</li>
+          <li>Compartir nuestros conocimientos es una manera de cambiar el mundo en el que vivimos.</li>
+          <li>Ayudamos a mejorar la vida profesional de nuestro alumnos.</li>
+          <li>Ser transparentes, legales y honrados nos permite demandar el mismo trato de nuestros compañeros, alumnos,
+            clientes, proveedores y de la sociedad.</li>
+        </ul>
+        <br/><br/>
+      </div>
+    </div>
+  </section>-->
+  <!-- /.container -->
+  
+    
     <!-- trabajo -->
     <section id="trabajo" class="container dark">
       <div class="row">
@@ -700,25 +1418,24 @@
     	      <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
     	          <div class="panel panel-default">
     	            <div class="panel-heading">
-    	              <h2><a href="work.html" class="work">Formador<br />Java</a></h2>
+    	              <h2><a href="work.html" class="work">Formador<br />Java y Spring</a></h2>
     	            </div>
     	            <div class="panel-body">
-    	               <p>Spring, Hibernate, JSF,<br/>Groovy, Gradle, etc.</p>
+    	               <p>Spring, Spring boot, Microservices,<br/>Groovy, Gradle, Jenkins, Sonar, etc.</p>
     	            </div>
                   <div class="panel-footer">
-                    <a href="work.html"><img src="img/icons/48/java-bis.png" alt="Java EE" /></a>
+                    <a href="work.html"><img src="img/icons/48/java-bis.png" alt="Java" /></a>
       	            <a href="work.html"><img src="img/icons/48/spring.png" alt="Spring" /></a>
-      	            <a href="work.html"><img src="img/icons/48/persistence.png" alt="Hibernate" /></a>
     	            </div>
     	          </div>
     	      </div>
     	      <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
     	          <div class="panel panel-default">
     	            <div class="panel-heading">
-    	              <h2><a href="work.html" class="work">Formador<br />JavaScript</a></h2>
+    	              <h2><a href="work.html" class="work">Formador<br />Web y JavaScript</a></h2>
     	            </div>
     	            <div class="panel-body">
-    	               <p>JS, Node, Angular, HTML,<br/>CSS, Webpack, etc.</p>
+    	               <p>TypeScript, Node, Angular, HTML,<br/>CSS, Webpack, React, VUE, etc.</p>
     	            </div>
                   <div class="panel-footer">
                     <a href="work.html"><img src="img/icons/48/js.png" alt="Javascript" /></a>
@@ -730,30 +1447,28 @@
     	      <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
     	          <div class="panel panel-default">
     	            <div class="panel-heading">
-    	              <h2><a href="work.html" class="work">Formador<br />DevOps y NoSQL</a></h2>
+    	              <h2><a href="work.html" class="work">Formador<br />DevOps</a></h2>
     	            </div>
     	            <div class="panel-body">
-    	               <p>Linux, Servidores,<br/>Mongo, Cassandra, etc. </p>
+    	               <p>Linux, Servidores Aplicaciones, Jenkins,<br/>Sonar, Docker, Kubernetes, OpenShift, etc.</p>
     	            </div>
                   <div class="panel-footer">
                     <a href="work.html"><img src="img/icons/48/linux.png" alt="Linux" /></a>
       	            <a href="work.html"><img src="img/icons/48/server.png" alt="Servidores" /></a>
-      	            <a href="work.html"><img src="img/icons/48/no-sql.png" alt="NoSQL" /></a>
     	            </div>
     	          </div>
     	      </div>
     	      <div class="text-center col-xs-12 col-sm-6 col-md-3 col-lg-3">
     	          <div class="panel panel-default">
     	            <div class="panel-heading">
-    	              <h2><a href="work.html" class="work">Formador<br />apps móviles</a></h2>
+    	              <h2><a href="work.html" class="work">Formador<br />Big Data y NoSQL</a></h2>
     	            </div>
     	            <div class="panel-body">
-    	               <p>iOS, Android,<br/>Cordova, Phonegap, etc.</p>
+    	               <p>MongoDB, Cassandra, Hadoop,<br/>Spark, Elasticsearch, Kibana, etc.</p>
     	            </div>
                   <div class="panel-footer">
-    	              <a href="work.html"><img src="img/icons/48/android.png" alt="Android" /></a>
-      	            <a href="work.html"><img src="img/icons/48/iphone.png" alt="iOS" /></a>
-      	            <a href="work.html"><img src="img/icons/48/windows.png" alt="Windows" /></a>
+                    <a href="work.html"><img src="img/icons/48/no-sql.png" alt="NoSQL" /></a>
+                    <!--<a href="work.html"><img src="img/icons/48/cloud.png" alt="Cloud" /></a>-->
     	            </div>
     	          </div>
     	      </div>
@@ -824,224 +1539,7 @@
 
     </section--><!-- /.container -->
 
-    <!-- que-impartimos -->
-    <section id="que-impartimos" class="container dark">
-      <h1>¿Qué formación impartimos?</h1>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63897614">Java (JSE y JEE)</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63897614">
-                <img src="img/icons/128/java-bis.png" alt="Java (JSE y JEE)" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BFDJ%5D+Frameworks+de+Desarrollo+Java">Frameworks Java</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BFDJ%5D+Frameworks+de+Desarrollo+Java"><img src="img/icons/128/java-bis-frameworks.png" alt="Frameworks Java" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550928502/SPR+Spring">Spring</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/spring.png" alt="Spring" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=62226454">Desarrollo Web</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=62226454">
-                <img src="img/icons/128/web.png" alt="Desarrollo Web" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550731837/NFR+.NET+Framework">.Net</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/microsoft.net.png" alt=".Net" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550830176/TCC+Tecnolog+a+C+y+C+">C y C++<a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/c-c++_bis.png" alt="C y C++" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550699092/OTL+Otros+Lenguajes+y+Tendencias">Últimas tendencias</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/trend.png" alt="Últimas tendencias" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63406117">Desarrollo Móviles</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=63406117">
-                <img src="img/icons/128/smartphones.png" alt="Desarrollo Móviles" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDN%5D+Big+Data+y+NoSql">Big Data y NoSql</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDN%5D+Big+Data+y+NoSql">
-                <img src="img/icons/128/cloud-bigdata-bis.png" alt="Big Data y NoSql" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BDCH%5D++Devops%2C+Cloud+y+Herramientas+XaaS">DevOps y Cloud</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BDCH%5D++Devops%2C+Cloud+y+Herramientas+XaaS"><img src="img/icons/128/cloud-whels.png" alt="DevOps y Cloud" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550928527/XWS+XML+Web+Services+y+SOA">XML, Web Services y SOA</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/cloud-arrows.png" alt="XML, Web Services y SOA" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64290904">Desarrollo rápido</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64290904"><img src="img/icons/128/train.png" alt="Desarrollo rápido" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64782373">Herramientas</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/pages/viewpage.action?pageId=64782373"><img src="img/icons/128/tools.png" alt="Herramientas" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550993965/SAP+Servidores+Aplicaciones">Servidores de Aplicaciones</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/server.png" alt="Servidores de Aplicaciones" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDT%5D+Bases+de+Datos">Bases de Datos</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BBDT%5D+Bases+de+Datos"><img src="img/icons/128/database.png" alt="Bases de Datos" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550895719/SOP+Sistemas+Operativos">Linux y Virtualización</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/linux-bis.png" alt="Linux y virtualización" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550699058/MGP+Metodolog+as+para+Gesti+n+de+Proyectos">Gestión de Proyectos</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/dossier.png" alt="Gestión de Proyectos" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/550928385/MAD+Metodolog+as+de+An+lisis+y+Dise+o">Análisis y Diseño</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/design.png" alt="Análisis y Diseño" />
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BIBI%5D+Informes+y+Business+Intelligence">BI e Informes</a></h2>
-            </div>
-            <div class="panel-body">
-              <a href="https://pronoide.atlassian.net/wiki/display/CAT/%5BIBI%5D+Informes+y+Business+Intelligence"><img src="img/icons/128/report.png" alt="BI e Informes" /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h2><a href="https://pronoide.atlassian.net/wiki/spaces/CAT/pages/551026722/PGC+Portales+y+Gestores+de+Contenido">Portales y CMS</a></h2>
-            </div>
-            <div class="panel-body">
-              <img src="img/icons/128/portlets.png" alt="Portales y CMS" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <br />
-      <br />
-    </section><!-- /.container -->
-
+    
     <footer id="contacto">
       <p>
         <a href="mailto:info@pronoide.com"><img src="img/icons/48/social-white/email.jpg" alt="Email"></a>
@@ -1101,6 +1599,9 @@
         }
 
     });
-    </script>
-  </body>
+</script>
+
+<script src="js/carrusel.js"></script>
+
+</body>
 </html>
